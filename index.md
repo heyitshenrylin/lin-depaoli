@@ -2,7 +2,7 @@
 layout: landingpage
 title: Lin-Depaoli Wedding
 subtitle: Welcome to our special day
-header_type: image
+header_type: hero
 header_img: "assets/css/Emily & Henry Engagement-70.jpg"
 categories: [landing-page]
 ---
