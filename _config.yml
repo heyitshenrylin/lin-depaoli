@@ -125,6 +125,7 @@ chulapa-skin:
   autothemer    :  true # Bool: Use autotheming
   vars          :    
     primary     : "#8B9467" #default ["#007bff"] - Bootstrap blue
+    secondary   : "#D88E61"
     
 # D. Jekyll Defaults and collections: see https://jekyllrb.com/
 
