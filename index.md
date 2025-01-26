@@ -10,3 +10,8 @@ categories: [landing-page]
 ## Date & Location
 
 {% include custom/date_location.html  %}
+
+
+## <center>Frequently Asked Questions</center>
+
+{% include custom/faq.html %}
