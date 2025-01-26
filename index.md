@@ -7,3 +7,6 @@ header_img: "assets/css/Emily & Henry Engagement-70.jpg"
 categories: [landing-page]
 ---
 
+## Date & Location
+
+{% include custom/date_location.html  %}

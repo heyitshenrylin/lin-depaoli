@@ -2,3 +2,15 @@
 ---
 @charset "utf-8";
 // Your custom css /scss here
+
+
+/* Override main content column width and add left margin */
+#maincontent {
+    flex-basis: 100% !important; 
+    max-width: 100% !important;
+  }
+
+/* Reduce aside width */
+aside {
+    display: none; /* or any other value you prefer */
+  }

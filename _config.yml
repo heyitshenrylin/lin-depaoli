@@ -129,18 +129,13 @@ googlefonts:
 # Theme and colors
 chulapa-skin: 
   highlight     :  # default["default"]
-  skin         :  # Optional predefined skins
+  skin         : # Optional predefined skins
   autothemer    :  true # Bool: Use autotheming
   vars          :    
     primary     : "#8B9467" #default ["#007bff"] - Bootstrap blue
     secondary   : "#D88E61"
     
 # D. Jekyll Defaults and collections: see https://jekyllrb.com/
-
-# Blog pagination: on this site /blog/index.html. https://jekyllrb.com/docs/pagination/
-paginate: 4
-paginate_path: "/blog/page:num/"
-paginator_maxnum: 3  #default[3] Custom: max of number to be displayed on the paginator
 
 # Defaults https://jekyllrb.com/docs/configuration/front-matter-defaults/
 defaults:
@@ -233,6 +228,6 @@ kramdown:
 
 # Sass/SCSS
 sass:
-  sass_dir: _sass
+  sass_dir: assets/css
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
