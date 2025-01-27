@@ -1,7 +1,7 @@
 ---
 layout: landingpage
 title: Lin-DePaoli Wedding
-subtitle: Welcome to our special day
+subtitle: July 5th 2025 - Edmonton, Alberta
 header_type: splash
 header_img: "assets/css/Emily & Henry Engagement-70.jpg"
 categories: [landing-page]
@@ -11,6 +11,9 @@ categories: [landing-page]
 
 {% include custom/date_location.html  %}
 
+## Venue Info
+
+{% include custom/venue_info.html %}
 
 ## <center>Frequently Asked Questions</center>
 

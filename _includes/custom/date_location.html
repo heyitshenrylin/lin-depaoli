@@ -1,41 +1,47 @@
 
 <style>
  
-    .row {
+    #row-date-location {
         margin-top: 2em;
     }
 
-    .card-img-right {
+    .card-img-right.date-location{
         width: 250px;
         object-fit: cover;
         height: 250px;
     }
+
+    .page-link {
+        border: 2px solid #d2d6d3; /* Add a border around each card */
+        border-radius: 10px; /* Make the borders rounded */
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    }
     </style>
-<div class="row mb-0">
+<div class="row mb-0" id="row-date-location">
     <div class="col-12">
         <div class="card d-flex flex-xl-row mb-4 box-shadow h-md-250">
             <div class="card-body d-flex flex-column align-items-start">
-                <strong class="d-block mb-2 text-success">Wedding Ceremony</strong>
+                <strong class="d-block mb-2 text-success">Ceremony Venue</strong>
                 <h3 class="mb-2">
-                <a class="text-dark" href="#">University of Alberta Botanical Gardens</a>
+                <a class="text-dark" href="https://www.ualberta.ca/en/botanic-garden/index.html " target="_blank">University of Alberta Botanic Garden</a>
                 </h3>
-                <div class="mb-2 text-muted">Time - 12:00pm to 3:00pm</div>
-                <a class="page-link mt-auto" href="#">Google Maps</a>
+                <div class="mb-2 text-muted">51227 AB-60, Parkland County, AB - 12:30pm to 2:45pm</div>
+                <a class="page-link mt-auto text-primary" href="https://maps.app.goo.gl/6HoePvZMrEaWstjt6" target="_blank">Google Maps</a>
             </div>
-            <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [250x250]" src="assets/css/alpine-garden-3.jpg" data-holder-rendered="true">
+            <img class="card-img-right flex-auto d-none d-lg-block date-location" alt="Thumbnail [250x250]" src="assets/css/alpine-garden-3.jpg" data-holder-rendered="true">
         </div>
     </div>
     <div class="col-12">
         <div class="card d-flex flex-xl-row mb-4 box-shadow h-md-250">
             <div class="card-body d-flex flex-column align-items-start">
-                <strong class="d-block mb-2 text-success">Wedding Reception</strong>
+                <strong class="d-block mb-2 text-success">Reception Venue</strong>
                 <h3 class="mb-2">
-                <a class="text-dark" href="#">Fu's Repair Shop - Double Dragon</a>
+                <a class="text-dark" href="https://www.fusrepairshop.ca/" target="_blank">Fu's Repair Shop - Double Dragon</a>
                 </h3>
-                <div class="mb-2 text-muted">Time - 5:00pm to 12:00am</div>
-                <a class="page-link mt-auto" href="#">Google Maps</a>
+                <div class="mb-2 text-muted">10524 Jasper Ave, Edmonton, AB - 5:00pm to 12:00am</div>
+                <a class="page-link mt-auto text-primary" href="https://maps.app.goo.gl/X5i1UqTX9vuefenx9" target="_blank">Google Maps</a>
             </div>
-        <img class="card-img-right flex-auto d-none d-lg-block" alt="Thumbnail [250x250]" src="assets/css/fus.jpg" data-holder-rendered="true">
+        <img class="card-img-right flex-auto d-none d-lg-block date-location" alt="Thumbnail [250x250]" src="assets/css/fus.jpg" data-holder-rendered="true">
         </div>
     </div>
 </div>

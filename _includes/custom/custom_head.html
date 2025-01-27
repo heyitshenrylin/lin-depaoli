@@ -1,5 +1,16 @@
 <!-- start custom head snippets -->
-
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // Add an event listener to all nav links
+        document.querySelectorAll('.nav-link').forEach((link) => {
+        link.addEventListener('click', () => {
+            // Uncheck the FAB button after clicking on a nav link
+            document.querySelector('label.navbar-toggler[for="navi-toggle"]').click();
+            });
+        });
+    });
+    
+  </script>
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
 <!-- end custom head snippets -->
