@@ -105,8 +105,11 @@ navbar:
   #   url     : /#whattobring
   # - title   : RSVP
   #   url     : /rsvp/
+  - title   : RSVP
+    url     : /#rsvp
   - title   : FAQ
     url     : /#frequently-asked-questions
+
 #  - title   : # Label submenu
 #    child:		
 #    - title: # Child label		

@@ -15,6 +15,10 @@ categories: [landing-page]
 
 {% include custom/venue_info.html %}
 
+## RSVP
+
+{% include custom/rsvp.html %}
+
 ## <center>Frequently Asked Questions</center>
 
 {% include custom/faq.html %}
